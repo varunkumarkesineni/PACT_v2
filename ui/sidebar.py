@@ -7,6 +7,8 @@ from services.auth_service import AuthService
 from services.notification_service import NotificationService
 
 
+
+
 def render_sidebar(current_user: Dict[str, Any]) -> str:
     """Render the officer identity panel and navigation in the sidebar.
 
